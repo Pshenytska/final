@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+header {
+  background: white;
+  height: 40%;
+  align-items: center;
+}
+.header-inner {
+  background: white;
+}
+nav {
+  text-align: center;
+  background-color: #8d99ae;
+  top: 0;
+}
+
+.current {
+  color: #ee523c;
+}
+
+footer {
+  text-align: center;
+  background-color: #8d99ae;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+footer li {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+a {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: bisque;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+} */
+
+.success {
+  float: left;
+  padding: 10px;
+  background-color: #ee523c;
+  border-radius: 25px;
+}
+
+.welcome-logout {
+  float: right;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #ee523c;
+  border-radius: 25px;
+}
+.second-wrapper {
+  float: right;
+}
+
+.real-estate {
+  padding: 25px;
+}
+.fa-door-open {
+  color: white;
+  font-size: medium;
+}
+
+.fa-thumbs-up {
+  color: white;
+}
+
+#wrapper {
+  clear: both;
+  width: 940px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.block {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+.error {
+  margin: 10px 0;
+  color: red;
+  font-style: italic;
+}
+
+.c-drop-cap {
+  font-size: 6em;
+  float: left;
+  margin-top: 0.28em;
+  margin-bottom: 0.28em;
+  padding-right: 0.05em;
+  color: #151013;
+}
+
+.c-lead-in {
+  font-family: "ColfaxWeb";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+article {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.article {
+  width: 50%;
+  margin: auto;
+}
+
+.img {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+textarea {
+  background-color: #f8f8f8;
+  height: 20px;
+  width: 300px;
+}
+
+input[type="submit"]:hover {
+  color: black;
+  background-color: yellow;
+  box-shadow: 0px 15px 20px rgba(239, 243, 11, 0.4);
+  transform: translateY(-7px);
+}
+.button,
+.btn,
+.btn-2,
+input[type="submit"] {
+  width: 140px;
+  height: 45px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.btn:hover {
+  color: black;
+  background-color: yellow;
+  box-shadow: 0px 15px 20px rgba(239, 243, 11, 0.4);
+  transform: translateY(-7px);
+}
+
+.btn-2:hover {
+  color: black;
+  background-color: #ee523c;
+  box-shadow: 0px 15px 20px rgba(243, 100, 5, 0.4);
+  transform: translateY(-7px);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+form {
+  width: 40%;
+  margin: 50px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  padding: 5px;
+}
